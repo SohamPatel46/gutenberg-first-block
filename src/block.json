@@ -4,11 +4,38 @@
 	"name": "create-block/sp-first",
 	"version": "0.1.0",
 	"title": "Sp First",
-	"category": "widgets",
+	"category": "text",
 	"icon": "smiley",
 	"description": "Example block scaffolded with Create Block tool.",
+	"attributes": {
+		"message": {
+			"type": "string",
+			"default": "",
+			"selector": "h2",
+			"source": "html"
+		},
+		"message2": {
+			"type": "string"
+		},
+		"textColor": {
+			"type": "string"
+		},
+		"showMessage": {
+			"type": "boolean"
+		},
+		"alignment": {
+			"type": "string"
+		}
+	},
 	"supports": {
-		"html": false
+		"color": {
+			"background": true,
+			"text": true
+		},
+		"html": false,
+		"typography": {
+			"fontSize": true
+		}
 	},
 	"textdomain": "sp-first",
 	"editorScript": "file:./index.js",

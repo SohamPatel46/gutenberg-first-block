@@ -7,3 +7,13 @@
 .wp-block-create-block-sp-first {
 	border: 1px dotted #f00;
 }
+
+.sp-wrapper {
+	text-align: center;
+	padding-bottom: 3rem;
+
+	.block-editor-inner-blocks {
+		width: max-content;
+		margin: auto;
+	}
+}

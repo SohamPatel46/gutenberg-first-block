@@ -10,3 +10,13 @@
 	color: #fff;
 	padding: 2px;
 }
+
+.sp-wrapper {
+	text-align: center;
+	padding-bottom: 3rem;
+
+	.block-editor-inner-blocks {
+		width: max-content;
+		margin: auto;
+	}
+}
